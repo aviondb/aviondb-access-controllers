@@ -1,0 +1,35 @@
+{
+  "name": "aviondb-access-controllers",
+  "version": "0.0.0",
+  "description": "Access Controllers for AvionDB",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappkit/aviondb-access-controllers.git"
+  },
+  "keywords": [
+    "ipfs",
+    "orbitdb",
+    "aviondb"
+  ],
+  "author": "Dappkit",
+  "contributors": [
+    "vasa-develop",
+    "vaultec81"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dappkit/aviondb-access-controllers/issues"
+  },
+  "homepage": "https://github.com/dappkit/aviondb-access-controllers#readme",
+  "devDependencies": {
+    "aviondb": "^0.2.0",
+    "ipfs": "^0.40.0"
+  }
+}

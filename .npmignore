@@ -1,0 +1,34 @@
+# Make sure to exclude test data directory
+orbitdb/
+
+# Don't distribute the dependencies
+node_modules/
+
+# Don't distribute examples with the module
+examples/
+
+# Don't distribute source maps
+dist/*.map
+
+# Don't distribute assets
+assets/
+
+.git
+.github
+.prettierignore
+.travis.yml
+benchmarks
+test
+ipfs
+cache
+docker
+conf
+Makefile
+gulpfile.js
+webpack.config.js
+package-lock.json
+API.md
+CHANGELOG.md
+CONTRIBUTING.md
+CONTRIBUTORS.md
+CODE_OF_CONDUCT.md
